@@ -23,3 +23,6 @@ sed -i '$a src-git mmdvm https://github.com/qzyuebing/mmdvm-openwrt' feeds.conf.
 sed -i '$a src-git mmdvmfeed https://github.com/qzyuebing/mmdvm-feeds' feeds.conf.default
 #sed -i '$a src-git easymesh https://github.com/bzeng89/luci-app-easymesh' feeds.conf.default
 
+# 简单MESH
+git clone https://github.com/ntlf9t/luci-app-easymesh package/luci-app-easymesh
+
