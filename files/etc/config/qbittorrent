@@ -1,6 +1,6 @@
 
 config qbittorrent 'config'
-	option enabled '0'
-	option http_port '6008'
-	option download_dir '/mnt/mmcblk0p7'
+	option http_port '6003'
+	option download_dir '/mnt/mmcblk0p7/Download'
+	option enabled '1'
 
