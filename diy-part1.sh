@@ -15,7 +15,9 @@
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-sed -i '$a src-git mmdvm https://github.com/qzyuebing/mmdvm-openwrt' feeds.conf.default
-sed -i '$a src-git mmdvmto https://github.com/qzyuebing/mmdvm-feeds' feeds.conf.default
+#sed -i '$a src-git mmdvm https://github.com/qzyuebing/mmdvm-openwrt' feeds.conf.default
+#sed -i '$a src-git mmdvmto https://github.com/qzyuebing/mmdvm-feeds' feeds.conf.default
 
+####### MMDVM
+#git clone https://github.com/fndsz/mmdvm-op.git package/mmdvm/mmdvm-openwrt
 
